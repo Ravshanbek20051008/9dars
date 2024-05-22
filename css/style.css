@@ -1,0 +1,195 @@
+.header {
+  width: 1058px;
+  margin: 15px auto;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b152b;
+  height: 59px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 47px;
+}
+.header__container .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+}
+.header__container .nav-list a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.86px;
+  letter-spacing: -0.75px;
+  transition: all 0.6s;
+}
+.header__container .nav-list a:hover {
+  color: #cf9090;
+}
+
+.header__container .logo {
+  width: 172px;
+  height: 24px;
+}
+.header__container .header-btn a {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.95px;
+  text-decoration: none;
+  width: 137px;
+  height: 35px;
+  padding: 8px 30px 8px 30px;
+  gap: 5px;
+  border-radius: 20px;
+  background-color: #7f56d9;
+  padding: 8px 30px;
+  transition: all 0.5s;
+}
+.header__container .header-btn a:hover {
+  background-color: #53487c;
+}
+
+.hero {
+  width: 1058px;
+  margin: 65px auto;
+  height: 884px;
+}
+
+.hero__container h1 {
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 87.14px;
+  letter-spacing: -3.82px;
+  text-align: center;
+  width: 1058px;
+  height: 174px;
+  color: #1b152b;
+  margin-bottom: 16px;
+}
+.hero__container p {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.86px;
+  letter-spacing: -0.75px;
+  text-align: center;
+  height: 36px;
+  color: #7a7d9c;
+  margin-bottom: 16px;
+}
+
+.hero__container .hero-btn a {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.95px;
+  text-decoration: none;
+  width: 137px;
+  height: 35px;
+  padding: 8px 30px 8px 30px;
+  gap: 5px;
+  border-radius: 20px;
+  padding: 8px 30px;
+  transition: all 0.5s;
+}
+.hero__container .hero-btn a:last-child {
+  background-color: #7f56d9;
+  margin-left: 15px;
+}
+.hero__container .hero-btn a:last-child:hover {
+  background-color: #1b152b;
+}
+.hero__container .hero-btn a:first-child {
+  background-color: #1b152b;
+  margin-left: 400px;
+}
+.hero__container .hero-btn a:first-child:hover {
+  background-color: #7f56d9;
+}
+
+.hero__container {
+  position: relative;
+}
+.hero__container img {
+  margin-top: 48px;
+  width: 1146px;
+  height: 388px;
+  margin-left: -45px;
+}
+.hero__container button {
+  background-color: #0d0d13;
+}
+
+.azolar {
+  margin-left: 70px;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  width: 931px;
+  height: 123px;
+  padding: 16px 48px 16px 48px;
+  border-radius: 16px;
+  border: 1px;
+  justify-content: space-between;
+  color: #7f56d9;
+  background-color: #ffffff;
+}
+.azolar button {
+  margin-left: 59px;
+  height: 100px;
+  width: 1px;
+  margin-right: 59px;
+}
+.azolar h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58.09px;
+  width: 103px;
+  height: 58px;
+}
+
+.azolar .oyligi h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.78px;
+  width: 233px;
+  height: 33px;
+}
+.azolar .aktivlar h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.78px;
+  width: 138px;
+  height: 33px;
+}
+.azolar .korsatkichi h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.78px;
+  width: 225px;
+  height: 33px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1058px;
+  width: 100%;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
