@@ -1,60 +1,66 @@
 .header {
-  width: 1058px;
-  margin: 15px auto;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1b152b;
-  height: 59px;
-  padding: 12px 20px 12px 20px;
-  border-radius: 47px;
+  background-color: #13ab4e;
+  opacity: 0.05;
 }
 .header__container .nav-list {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 40px;
   list-style: none;
 }
 .header__container .nav-list a {
   text-decoration: none;
-  color: #ffffff;
-  font-family: Manrope;
+  color: #333333;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
-  line-height: 21.86px;
-  letter-spacing: -0.75px;
-  transition: all 0.6s;
+  line-height: 24px;
+  width: 99px;
+  height: 24px;
 }
 .header__container .nav-list a:hover {
-  color: #cf9090;
+  color: #513232;
 }
 
 .header__container .logo {
-  width: 172px;
-  height: 24px;
+  width: 148px;
+  height: 40px;
 }
-.header__container .header-btn a {
-  color: #ffffff;
-  font-family: Inter;
+.header__container .header-btn a:last-child {
+  width: 190px;
+  height: 55px;
+  border-radius: 4px;
+  background-color: #13ab4e;
+  transition: all 0.5s;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  width: 134px;
+  height: 27px;
+}
+.header__container .header-btn a:last-child:hover {
+  background-color: #0c4622;
+}
+.header__container .header-btn a:first-child {
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
-  line-height: 19.36px;
-  letter-spacing: -0.95px;
-  text-decoration: none;
-  width: 137px;
-  height: 35px;
-  padding: 8px 30px 8px 30px;
-  gap: 5px;
-  border-radius: 20px;
-  background-color: #7f56d9;
-  padding: 8px 30px;
-  transition: all 0.5s;
+  line-height: 24px;
+  width: 53px;
+  height: 24px;
+  color: #333333;
 }
-.header__container .header-btn a:hover {
-  background-color: #53487c;
+.header__container .header-btn a:first-child:hover {
+  background-color: #4b3c3c;
 }
 
 .hero {
@@ -188,7 +194,7 @@
 }
 
 .container {
-  width: 1058px;
+  width: 1440px;
   width: 100%;
   margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
