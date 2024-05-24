@@ -7,14 +7,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #13ab4e;
-  opacity: 0.05;
+  padding: 22px 132px;
 }
 .header__container .nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
   list-style: none;
+  margin-left: -220px;
 }
 .header__container .nav-list a {
   text-decoration: none;
@@ -35,6 +35,8 @@
   height: 40px;
 }
 .header__container .header-btn a:last-child {
+  text-decoration: none;
+  margin-left: 32px;
   width: 190px;
   height: 55px;
   border-radius: 4px;
@@ -46,11 +48,15 @@
   line-height: 27px;
   width: 134px;
   height: 27px;
+  padding: 14px 28px;
+  border: 4px;
+  color: #ffffff;
 }
 .header__container .header-btn a:last-child:hover {
   background-color: #0c4622;
 }
 .header__container .header-btn a:first-child {
+  text-decoration: none;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -63,128 +69,113 @@
   background-color: #4b3c3c;
 }
 
+.brend {
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: -380px;
+}
+.brend p {
+  margin-left: 188px;
+  margin-bottom: 32px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  width: 543px;
+  height: 24px;
+  color: #0d7d38;
+}
+
+.brend {
+  margin-left: 499px;
+}
+.brend .brendlar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .hero {
-  width: 1058px;
+  width: 1440px;
   margin: 65px auto;
   height: 884px;
 }
 
 .hero__container h1 {
-  font-family: Inter;
-  font-size: 72px;
-  font-weight: 400;
-  line-height: 87.14px;
-  letter-spacing: -3.82px;
-  text-align: center;
-  width: 1058px;
-  height: 174px;
-  color: #1b152b;
+  margin-top: -540px;
+  margin-left: 132px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  width: 570px;
+  height: 216px;
+  color: #000000;
   margin-bottom: 16px;
+}
+.hero__container h1 span {
+  color: #13ab4e;
 }
 .hero__container p {
-  font-family: Manrope;
-  font-size: 16px;
+  margin-left: 132px;
+  font-family: Poppins;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 21.86px;
-  letter-spacing: -0.75px;
-  text-align: center;
-  height: 36px;
-  color: #7a7d9c;
-  margin-bottom: 16px;
+  line-height: 36px;
+  width: 525px;
+  height: 72px;
+  color: #333333;
+  margin-bottom: 32px;
 }
 
-.hero__container .hero-btn a {
-  color: #ffffff;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.36px;
-  letter-spacing: -0.95px;
-  text-decoration: none;
-  width: 137px;
-  height: 35px;
-  padding: 8px 30px 8px 30px;
-  gap: 5px;
-  border-radius: 20px;
-  padding: 8px 30px;
-  transition: all 0.5s;
-}
-.hero__container .hero-btn a:last-child {
-  background-color: #7f56d9;
-  margin-left: 15px;
-}
-.hero__container .hero-btn a:last-child:hover {
-  background-color: #1b152b;
-}
 .hero__container .hero-btn a:first-child {
-  background-color: #1b152b;
-  margin-left: 400px;
+  margin-left: 132px;
+  text-decoration: none;
+  width: 190px;
+  height: 55px;
+  border-radius: 4px;
+  background-color: #13ab4e;
+  transition: all 0.5s;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  width: 134px;
+  height: 27px;
+  padding: 14px 28px;
+  border: 4px;
+  color: white;
 }
 .hero__container .hero-btn a:first-child:hover {
-  background-color: #7f56d9;
+  background-color: #0c4622;
+}
+.hero__container .hero-btn a:last-child {
+  text-decoration: none;
+  margin-left: 25px;
+  width: 160px;
+  height: 27px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #13ab4e;
+  border: 4px;
+}
+.hero__container .hero-btn a:last-child:hover {
+  background-color: #0c4622;
 }
 
 .hero__container {
   position: relative;
 }
-.hero__container img {
-  margin-top: 48px;
-  width: 1058px;
-  height: 388px;
+.hero__container img:nth-child(1) {
+  margin-top: -165px;
 }
-.hero__container button {
-  background-color: #0d0d13;
-}
-
-.azolar {
-  margin-left: 125px;
-  margin-top: 48px;
-  display: flex;
-  align-items: center;
-  width: 931px;
-  height: 123px;
-  padding: 16px 48px 16px 48px;
-  border-radius: 16px;
-  border: 1px;
-  justify-content: space-between;
-  color: #7f56d9;
-  background-color: #ffffff;
-}
-.azolar button {
-  margin-left: 59px;
-  height: 100px;
-  width: 1px;
-  margin-right: 59px;
-}
-.azolar h1 {
-  font-family: Inter;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 58.09px;
-  width: 103px;
-  height: 58px;
-}
-
-.azolar .oyligi h3 {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32.78px;
-  width: 233px;
-  height: 33px;
-}
-.azolar .aktivlar h3 {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32.78px;
-  width: 138px;
-  height: 33px;
-}
-.azolar .korsatkichi h3 {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32.78px;
-  width: 225px;
-  height: 33px;
+.hero__container img:nth-child(2) {
+  position: absolute;
+  right: 130px;
+  top: -30px;
 }
 
 * {

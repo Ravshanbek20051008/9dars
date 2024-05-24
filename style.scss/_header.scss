@@ -6,14 +6,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #13ab4e;
-  opacity: 0.05;
-
+  // background-color: #93deb0;
+  padding: 22px 132px;
   .nav-list {
     display: flex;
     align-items: center;
     gap: 40px;
     list-style: none;
+    margin-left: -220px;
     a {
       text-decoration: none;
       color: #333333;
@@ -38,6 +38,8 @@
   .header-btn {
     a {
       &:last-child {
+        text-decoration: none;
+        margin-left: 32px;
         width: 190px;
         height: 55px;
         border-radius: 4px;
@@ -49,6 +51,9 @@
         line-height: 27px;
         width: 134px;
         height: 27px;
+        padding: 14px 28px;
+        border: 4px;
+        color: #ffffff;
         &:hover {
           background-color: #0c4622;
         }
@@ -56,6 +61,8 @@
     }
     a {
       &:first-child {
+        text-decoration: none;
+
         font-family: Poppins;
         font-size: 16px;
         font-weight: 400;
@@ -68,5 +75,33 @@
         }
       }
     }
+  }
+}
+.brend {
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: -380px;
+
+  p {
+    margin-left: 188px;
+    margin-bottom: 32px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 543px;
+    height: 24px;
+    color: #0d7d38;
+  }
+}
+.brend {
+  margin-left: 499px;
+
+  .brendlar {
+    display: flex;
+
+    align-items: center;
+    gap: 40px;
   }
 }
